@@ -4,9 +4,6 @@
 https://www.youtube.com/watch?v=2XFaK3bgT7w Тимофей Хирьянов
 27/10/2020
 """
-import time
-t = 1 #delay
-#time.sleep(t)
 
 # Генерация всех перестановок
 
@@ -16,11 +13,8 @@ def gen_bin(M, prefix=""):
     else:
         gen_bin(M-1, prefix+"0")
         gen_bin(M-1, prefix+"1")
-        
-    
+
 print_flag = False #вывод принтов
-
-
 
 
 def gen_numbers(N: int, M: int, prefix=None):

@@ -10,7 +10,7 @@ https://youtu.be/rEPggzaPoUw Тимофей Хирьянов
 26/11/2020 """
 
 
-def levenstein (A:list, B:list):
+def levenstein (A, B):
     """Редакционное растояние между двумя последовательностями (словами)
     F - ред. расстояние, индексы i, j c учетом 0: (len(L) + 1)
     O(m*n)
@@ -46,8 +46,8 @@ def equal (A, B):
 
 
 
-A = [0, 0, 0]
-B = [0, 1, 2, 3]
+A = 'Roma'
+B = 'Lena'
 
 R = levenstein(A, B)
 print(A, B, "\n levenstein:", R)
