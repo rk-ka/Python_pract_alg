@@ -17,7 +17,7 @@ git remote add origin http://github.com/username/repo.git #добавление
 удаленного репозитория
 
 git config --global user.name "User"
-git config --global user.email "user@ya.ru"
+git config --global user.email "user@mail.com"
 
 git push origin master #push залив на репо в ветку master
 
@@ -27,10 +27,10 @@ git pull origin master
 
 git remote -v #посмотреть параметры репо
 
-### Удалить файл из с компьютера и репо
+### Удалить файл с компьютера и репо
 
 git rm file1.txt
-git commit -m "remove file1.txt
+git commit -m "remove file1.txt"
 
 git push origin master #push changes to repo
 
