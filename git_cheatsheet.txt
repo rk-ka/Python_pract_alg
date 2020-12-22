@@ -1,0 +1,30 @@
+***Git chat sheet - basic work with git and github***
+
+git clone http://github.com/username/repo.git #получить (скачать) репозиторий
+
+git init #начинаем отслеживание файлов в проектной директории (git ранее не
+использовался)
+
+git add <file> #добавление файла к коммиту
+git add . #добавление всех файлов директории
+git *.py #добавление .py файлов
+
+git status #мониторинг отслеживания
+
+git commit -m "comments of commit" #создание коммита добавленных файлов
+
+git remote add origin http://github.com/username/repo.git #добавление
+удаленного репозитория
+
+git config --global user.name "User"
+git config --global user.email "user@ya.ru"
+
+git push origin master #push залив на репо в ветку master
+
+#####
+после изменения отслеживаемых файлов требуется синхронизация с репо
+git pull origin master
+
+git remote -v #посмотреть параметры репо
+
+
