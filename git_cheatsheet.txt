@@ -1,30 +1,30 @@
-***Git chat sheet - basic work with git and github***
+***Git cheat sheet - basic work with git and github***
 
-git clone http://github.com/username/repo.git #получить (скачать) репозиторий
+git clone http://github.com/username/repo.git #РїРѕР»СѓС‡РёС‚СЊ (СЃРєР°С‡Р°С‚СЊ) СЂРµРїРѕР·РёС‚РѕСЂРёР№
 
-git init #начинаем отслеживание файлов в проектной директории (git ранее не
-использовался)
+git init #РЅР°С‡РёРЅР°РµРј РѕС‚СЃР»РµР¶РёРІР°РЅРёРµ С„Р°Р№Р»РѕРІ РІ РїСЂРѕРµРєС‚РЅРѕР№ РґРёСЂРµРєС‚РѕСЂРёРё (git СЂР°РЅРµРµ РЅРµ
+РёСЃРїРѕР»СЊР·РѕРІР°Р»СЃСЏ)
 
-git add <file> #добавление файла к коммиту
-git add . #добавление всех файлов директории
-git *.py #добавление .py файлов
+git add <file> #РґРѕР±Р°РІР»РµРЅРёРµ С„Р°Р№Р»Р° Рє РєРѕРјРјРёС‚Сѓ
+git add . #РґРѕР±Р°РІР»РµРЅРёРµ РІСЃРµС… С„Р°Р№Р»РѕРІ РґРёСЂРµРєС‚РѕСЂРёРё
+git *.py #РґРѕР±Р°РІР»РµРЅРёРµ .py С„Р°Р№Р»РѕРІ
 
-git status #мониторинг отслеживания
+git status #РјРѕРЅРёС‚РѕСЂРёРЅРі РѕС‚СЃР»РµР¶РёРІР°РЅРёСЏ
 
-git commit -m "comments of commit" #создание коммита добавленных файлов
+git commit -m "comments of commit" #СЃРѕР·РґР°РЅРёРµ РєРѕРјРјРёС‚Р° РґРѕР±Р°РІР»РµРЅРЅС‹С… С„Р°Р№Р»РѕРІ
 
-git remote add origin http://github.com/username/repo.git #добавление
-удаленного репозитория
+git remote add origin http://github.com/username/repo.git #РґРѕР±Р°РІР»РµРЅРёРµ
+СѓРґР°Р»РµРЅРЅРѕРіРѕ СЂРµРїРѕР·РёС‚РѕСЂРёСЏ
 
 git config --global user.name "User"
 git config --global user.email "user@ya.ru"
 
-git push origin master #push залив на репо в ветку master
+git push origin master #push Р·Р°Р»РёРІ РЅР° СЂРµРїРѕ РІ РІРµС‚РєСѓ master
 
 #####
-после изменения отслеживаемых файлов требуется синхронизация с репо
+РїРѕСЃР»Рµ РёР·РјРµРЅРµРЅРёСЏ РѕС‚СЃР»РµР¶РёРІР°РµРјС‹С… С„Р°Р№Р»РѕРІ С‚СЂРµР±СѓРµС‚СЃСЏ СЃРёРЅС…СЂРѕРЅРёР·Р°С†РёСЏ СЃ СЂРµРїРѕ
 git pull origin master
 
-git remote -v #посмотреть параметры репо
+git remote -v #РїРѕСЃРјРѕС‚СЂРµС‚СЊ РїР°СЂР°РјРµС‚СЂС‹ СЂРµРїРѕ
 
 
